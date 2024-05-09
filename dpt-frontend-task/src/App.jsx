@@ -171,10 +171,10 @@ function App() {
                   {flight?.itineraries?.map((itinerary) =>
                     itinerary?.segments?.map((segment, idx) => (
                       <tr key={idx}>
-                        <td>
+                        <span>
                           {segment?.departure?.iataCode}-
                           {segment?.arrival?.iataCode}
-                        </td>
+                        </span>
                       </tr>
                     ))
                   )}
@@ -183,7 +183,7 @@ function App() {
                   {flight?.itineraries?.map((itinerary) =>
                     itinerary?.segments?.map((segment, idx) => (
                       <tr key={idx}>
-                        <td>{segment?.departure?.at}</td>
+                        <span>{segment?.departure?.at}</span>
                       </tr>
                     ))
                   )}
@@ -192,7 +192,7 @@ function App() {
                   {flight?.itineraries?.map((itinerary) =>
                     itinerary?.segments?.map((segment, idx) => (
                       <tr key={idx}>
-                        <td>{segment?.arrival?.at}</td>
+                        <span>{segment?.arrival?.at}</span>
                       </tr>
                     ))
                   )}
@@ -201,7 +201,7 @@ function App() {
                 <td>
                   {flight?.itineraries?.map((itinerary) => (
                     <tr key={idx}>
-                      <td>{itinerary?.duration}</td>
+                      <span>{itinerary?.duration}</span>
                     </tr>
                   ))}
                 </td>
