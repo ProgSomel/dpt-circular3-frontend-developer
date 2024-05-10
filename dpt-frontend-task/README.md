@@ -3,7 +3,7 @@
 
 # 1.  How To Run the Project 🔥
 
--Open your CMD, Clone the Repository to your local machine, after cloning go to the project folder on CMD and do the following instructions:
+-Open your CMD, Clone the Repository to your local machine, after cloning, go to the project task's folder(dpt-frontend-task) on CMD and do the following instructions:
 1. npm install
 2. npm run dev
 After that you can run the project on localhost in a Browser
@@ -11,7 +11,7 @@ After that you can run the project on localhost in a Browser
 
 # 2.  How much time i have spent to complete the project  🔥
 
-- It takes 2.5 hours to complete the project
+- It takes 2 hours to complete the project
 
 
 # 3.  Best Practices I have implemented in my code
